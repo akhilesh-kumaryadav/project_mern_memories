@@ -15,7 +15,7 @@ app.use(cors());
 app.use("/posts", postRoutes);
 app.use("/user", userRouter);
 app.get("/", (req, res) => {
-  res.send("server is up and running with your mongodb account");
+  res.send("Server is UP and RUNNING with your mongodb account");
 });
 
 const CONNECTION_URL =
